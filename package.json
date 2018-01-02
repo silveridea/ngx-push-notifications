@@ -2,6 +2,8 @@
   "name": "ngx-push-notifications",
   "version": "1.0.0",
   "license": "MIT",
+  "description": "Push notifications for PWA using Service Workers in Angular",
+  "homepage": "https://github.com/silveridea/ngx-push-notifications",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -29,7 +31,6 @@
     "push",
     "notification"
   ],
-
   "devDependencies": {
     "@angular/cli": "1.6.0",
     "@angular/compiler-cli": "^5.0.0",
