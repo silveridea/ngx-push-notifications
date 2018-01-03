@@ -2,37 +2,31 @@
   "name": "ngx-push-notifications",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "Push notifications for PWA using Service Workers in Angular",
-  "homepage": "https://github.com/silveridea/ngx-push-notifications",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --prod",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/silveridea/ngx-push-notifications.git"
+  "private": true,
+  "dependencies": {
+    "@angular/animations": "^5.0.0",
+    "@angular/common": "^5.0.0",
+    "@angular/compiler": "^5.0.0",
+    "@angular/core": "^5.0.0",
+    "@angular/forms": "^5.0.0",
+    "@angular/http": "^5.0.0",
+    "@angular/platform-browser": "^5.0.0",
+    "@angular/platform-browser-dynamic": "^5.0.0",
+    "@angular/router": "^5.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.5.2",
+    "zone.js": "^0.8.14"
   },
-  "author": {
-    "name": "silveridea",
-    "url": "http://www.silveridea.net"
-  },
-  "bugs": {
-    "url": "https://github.com/silveridea/ngx-push-notifications/issues"
-  },
-  "keywords": [
-    "angular",
-    "pwa",
-    "progressive web apps",
-    "push notifications",
-    "push",
-    "notification"
-  ],
   "devDependencies": {
-    "@angular/cli": "1.6.0",
+    "@angular/cli": "1.6.3",
     "@angular/compiler-cli": "^5.0.0",
     "@angular/language-service": "^5.0.0",
     "@types/jasmine": "~2.5.53",
@@ -52,7 +46,24 @@
     "tslint": "~5.7.0",
     "typescript": "~2.4.2"
   },
-  "engines": {
-    "node": ">=6.0.0"
-  }
+  "description": "Push notifications for PWA using Service Workers in Angular",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silveridea/ngx-push-notifications.git"
+  },
+  "keywords": [
+    "push",
+    "notifications",
+    "pwa",
+    "push",
+    "notification",
+    "angular",
+    "progressive web apps"
+  ],
+  "author": "silveridea",
+  "bugs": {
+    "url": "https://github.com/silveridea/ngx-push-notifications/issues"
+  },
+  "homepage": "https://github.com/silveridea/ngx-push-notifications#readme"
 }
