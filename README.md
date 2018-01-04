@@ -4,6 +4,7 @@ Push notifications for PWA using Service Workers in Angular
 
 
 [![NPM Version](https://img.shields.io/npm/v/ngx-push-notifications.svg)](https://www.npmjs.com/package/ngx-push-notifications)
+
 [![NPM Downloads](https://img.shields.io/npm/dt/ngx-push-notifications.svg)](https://www.npmjs.com/package/ngx-push-notifications)
 
 Official Push API documentation is here [Mozilla developer network](https://developer.mozilla.org/en-US/docs/Web/API/Push_API).
