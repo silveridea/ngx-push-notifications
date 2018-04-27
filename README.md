@@ -8,6 +8,7 @@ Push notifications for PWA using Service Workers in Angular
 
 Official Push API documentation is here [Mozilla developer network](https://developer.mozilla.org/en-US/docs/Web/API/Push_API).
 
+and here [Google Developers](https://developers.google.com/web/fundamentals/push-notifications/)
 
 ## Installation
 
