@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs/Observable';
-import 'rxjs/add/observable/fromPromise';
+import { Observable, from } from 'rxjs';
 
 export class PushNotificationOptions {
   public body: string;
@@ -25,7 +24,7 @@ export class PushNotificationService {
     return !!('Notification' in window);
   }
   public requestPermission(): Observable<NotificationPermission> {
-    return Observable.fromPromise(Notification.requestPermission()) as Observable<NotificationPermission>;
+    return from(Notification.requestPermission()) as Observable<NotificationPermission>;
   }
   public isPermissionGranted (permission) {
     return permission === 'granted';
