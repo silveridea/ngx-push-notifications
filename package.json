@@ -1,6 +1,6 @@
 {
   "name": "ngx-push-notifications",
-  "version": "7.0.1",
+  "version": "7.0.2",
   "license": "MIT",
   "scripts": {
     "ng": "ng",
