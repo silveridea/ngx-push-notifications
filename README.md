@@ -2,7 +2,7 @@
 
 Push notifications for PWA using Service Workers in Angular
 
-Edit: Updated to Angular 7
+**Edit: Updated to Angular 7**
 
 [![NPM Version](https://img.shields.io/npm/v/ngx-push-notifications.svg)](https://www.npmjs.com/package/ngx-push-notifications)
 [![NPM Downloads](https://img.shields.io/npm/dt/ngx-push-notifications.svg)](https://www.npmjs.com/package/ngx-push-notifications)
