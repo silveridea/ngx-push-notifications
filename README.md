@@ -1,3 +1,5 @@
+# *This project is deprecated and is no longer actively maintained*
+
 # ngx-push-notifications
 
 Push notifications for PWA using Service Workers in Angular
